@@ -1,0 +1,35 @@
+// Place all the styles related to the coaching controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.container{
+  width: 900px;
+  margin : 20px auto;
+  font-family: Helvetica;
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+}
+ .question{
+  border-left: 3px solid rgb(200,200,200);
+  text-align: left;
+  padding-left: 20px;
+
+  h2{
+  font-size : 18px;
+  color: rgb(40,40,40);
+  }
+  p{
+    font-size: 18px;
+    color: rgb(150,150,150);
+  }
+ }
+
+.new_question a{
+  text-decoration: none;
+}
+.titre{
+  color: rgb(80,80,80);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: helvetica;
+ }

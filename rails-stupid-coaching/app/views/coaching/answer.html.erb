@@ -1,0 +1,24 @@
+<div class= "container">
+  <div class="question">
+    <h2> <%= @question %> </h2>
+    <p> -you</p>
+  </div>
+
+  <div class="question">
+    <%if @question.include? "?"%>
+      <h2>Silly question, get dressed and go to work!</h2>
+      <p> -the coach</p>
+
+    <%elsif @question == "I am going to work right now!"%>
+      <h2>...</h2>
+      <p>-the coach</p>
+
+    <%else%>
+      <h2>I don't care, get dressed and go to work!</h2>
+      <p>-the coach</p>
+    <%end%>
+  </div>
+  <div class= "new_question">
+    <%= link_to "Ask a new question", ask_path %>
+  </div>
+</div>
